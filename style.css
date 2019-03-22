@@ -11,10 +11,6 @@ body {
     width: 30%;
     margin: 10% auto;
     text-align: center;
-    /* background: url(assets/background-container.jpg) no-repeat center center fixed;
-    background-size: cover; */
-    /* background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff); */
-    /* background: linear-gradient(to left, #2980b9, #6dd5fa, #ffffff 131%); */
     background: linear-gradient(to right, #56ccf2, #2f80ed);
     border-radius: 44px;
     box-shadow: 0px 12px 42px -8px rgba(0, 0, 0, 0.75);
@@ -71,7 +67,6 @@ body {
     transition: 0.5s;
     transform: scale(1.1, 1.1);
     border-bottom: 3px solid rgba(75, 115, 142, 1);
-
 }
 
 .search-button {
@@ -155,8 +150,6 @@ body {
 .future-weather {
     display: none;
     justify-content: space-around;
-    justify-items: center;
-    /* padding: 20px; */
     border-top: 4px solid #FFCC01;
 }
 
