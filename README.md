@@ -8,3 +8,5 @@ I built the application thanks to a JSON file, which I downloaded with a unique 
 The application also shows the user the icon of the current weather and its description.
 
 #In building the application I used technologies: HTML5, CSS3, JavaScript, Ajax
+
+Live: https://vuzeta.github.io/Weather_API
