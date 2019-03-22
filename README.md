@@ -1,4 +1,4 @@
-Weather API
+Weather_API
 
 The application was created thanks to Weather API, which disseminates weather data all over the world.
 I built the application thanks to a JSON file, which I downloaded with a unique key.
