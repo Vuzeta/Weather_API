@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <img src="assets/title-icon.png" class="title-icon" alt="">
+            <h1 class="api-title">Weather API</h1>
+        </div>
+        <p class="api-desc">Check out the five-day weather in your city</p>
+        <div class="app">
+            <input type="text" name="" id="" class="input-search" placeholder="Enter the city or country">
+            <button class="search-button">Enter</button>
+        </div>
+        <h2 class="error">Give the correct name of the city or country</h2>
+        <div class="interface">
+            <div class="col-left">
+                <!-- <img src="" alt="" class="city-icon"> -->
+                <p class="city-celcius"></p>
+                <p class="city-desc"></p>
+            </div>
+            <div class="col-middle">
+                <img src="" alt="" class="city-icon">
+            </div>
+            <div class="col-right">
+                <h1 class="city-name"></h1>
+                <p class="city-date"></p>
+                <p class="city-wind"></p>
+                <p class="city-humidity"></p>
+            </div>
+        </div>
+        <div class="future-weather">
+            <div class="col-day">
+                <p class="future-day"></p>
+                <p class="future-temp"></p>
+            </div>
+            <div class="col-day">
+                <p class="future-day"></p>
+                <p class="future-temp"></p>
+            </div>
+            <div class="col-day">
+                <p class="future-day"></p>
+                <p class="future-temp"></p>
+            </div>
+            <div class="col-day">
+                <p class="future-day"></p>
+                <p class="future-temp"></p>
+            </div>
+        </div>
+    </div>
+    <!-- <script src="app.js"></script> -->
+    <script src="weatherObj.js"></script>
+</body>
+
+</html>
