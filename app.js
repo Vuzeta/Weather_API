@@ -122,7 +122,7 @@ const getWeather = value => {
   };
   req.open(
     "GET",
-    `http://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=68bd5f4bb35ae2d156f101f9dfc3a4a0`,
+    `https://api.openweathermap.org/data/2.5/forecast?q=${value}&appid=68bd5f4bb35ae2d156f101f9dfc3a4a0`,
     true
   );
   req.send();
