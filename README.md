@@ -2,11 +2,8 @@
 
 ### Description 
 
-The application was created thanks to Weather API, which disseminates weather data all over the world.
-I built the application thanks to a JSON file, which I downloaded with a unique key.
-
-This application shows 5-day weather in degrees Celsius.
-The application also shows the user the icon of the current weather and its description.
+The application was created thanks to the free openweathermap.org API, which disseminates weather data all over the world.
+The application works on the basis of requests sent using the AJAX method, which in response returns a JSON file from which weather data is drawn and displayed in Celsius for 5 consecutive days.
 
 ------------
 ### Technology used:
